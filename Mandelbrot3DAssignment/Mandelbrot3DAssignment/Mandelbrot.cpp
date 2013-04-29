@@ -293,6 +293,7 @@ void Mandelbrot::draw(){
 
 	for(unsigned int i=0;i<points.size();i++){
 		glColor3f(point_colors[i].red,point_colors[i].green, point_colors[i].blue);
+		glNormal3f(points[i].x,points[i].y,points[i].z);
 		glVertex3f(points[i].x,points[i].y,points[i].z);
 	}
 	glEnd();

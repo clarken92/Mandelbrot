@@ -3,7 +3,6 @@
 #include <vector>
 #include "Color.h"
 #include "Vector3f.h"
-#include "Complex.h"
 
 class Mandelbrot
 {
