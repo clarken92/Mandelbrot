@@ -24,7 +24,9 @@ class Mandelbrot
 		~Mandelbrot(void);
 		void draw();
 	private:
+		void setPointsAndColors();
 		void createPointSet();
+
 		
 };
 

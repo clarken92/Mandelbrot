@@ -8,7 +8,8 @@ class Plane
 	private:
 		float length, width;
 		int length_num, width_num;
-
+		//vector<Vector3f> vertices;
+		//vector< vector<int> > cells;
 	public:
 		TextureHandler texture;
 

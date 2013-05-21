@@ -3,10 +3,14 @@
 #include <math.h>
 struct Color{
 	float red,green,blue;
-
+	float alpha;
 	Color(){}
 	Color(float r, float g, float b){
 		red = r; green = g; blue = b;
+		alpha = 1.0f;
+	}
+	Color(float r,float g, float b, float a){
+		red = r; green = g; blue = b; alpha = a;
 	}
 	static Color HueToRGB(float hue){
 		hue = fmodf(hue,360.0f);
